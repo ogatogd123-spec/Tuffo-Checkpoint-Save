@@ -1,0 +1,39 @@
+{
+    "geode": "5.6.1",
+    "gd": {
+        "android": "2.2081"
+    },
+    "version": "0.1.0",
+    "id": "tuffo.checkpointssave",
+    "name": "Tuffo Checkpoints Save",
+    "developer": "Tuffo",
+    "description": "Projeto inicial para salvar e carregar progresso em fases Platformer.",
+    "tags": [
+        "gameplay",
+        "utility"
+    ],
+    "dependencies": {
+        "geode.node-ids": {
+            "version": ">=v1.12.0-beta.4",
+            "importance": "required"
+        },
+        "sabe.persistenceapi": {
+            "version": ">=v1.1.0",
+            "importance": "required"
+        }
+    },
+    "settings": {
+        "auto-save": {
+            "name": "Salvamento automático",
+            "description": "Ativa o salvamento automático quando um checkpoint é alcançado (a implementar).",
+            "type": "bool",
+            "default": true
+        },
+        "keep-after-complete": {
+            "name": "Manter após concluir",
+            "description": "Mantém o progresso salvo após concluir a fase (a implementar).",
+            "type": "bool",
+            "default": true
+        }
+    }
+}
