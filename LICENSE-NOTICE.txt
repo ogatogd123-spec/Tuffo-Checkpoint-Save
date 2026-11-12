@@ -1,0 +1,1 @@
+Este projeto inicial é independente e ainda não incorpora código-fonte do PlatformerSaves. A implementação de referência é licenciada sob GPL-3.0; qualquer código derivado deverá preservar os avisos de copyright e cumprir a GPL-3.0. Consulte: https://github.com/BANANCHIKIREAL/PlatformerSaves/blob/master/LICENSE
